@@ -7,6 +7,7 @@ public class Main {
         List<FiguraRegular> figuras = List.of(new Cuadrado(2.14), new Cuadrado(6.3),
                 new TrianguloEquilatero(1.1), new TrianguloEquilatero(2.6));
         mostrarDatosFiguras(figuras);
+        FiguraRegular figuraRegular = new FiguraRegular(6, 12.2);
     }
 
     private static void mostrarDatosFiguras(List<FiguraRegular> figuras) {
