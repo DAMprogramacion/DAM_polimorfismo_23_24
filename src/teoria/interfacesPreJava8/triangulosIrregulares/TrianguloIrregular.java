@@ -52,16 +52,34 @@ public class TrianguloIrregular implements Figura {
 
     @Override
     public double calcularPerimetro() {
-        return 0;
+        return lado1 + lado2 + lado3;
     }
 
     @Override
     public double calcularArea() {
-        return 0;
+        double semiPerimetro = calcularPerimetro() / 2.0;
+        return Math.sqrt(semiPerimetro * (semiPerimetro - lado1) * (semiPerimetro - lado2)
+                                       * (semiPerimetro - lado3));
     }
 
     @Override
     public String obtenerInformacion() {
-        return null;
+        StringBuilder builder =
+                new StringBuilder("Tipo figura: ").append(TIPO_FIGURA.toString()).append('\n');
+        builder.append("Tipo de triángulo: ").append(tipoTrianguloIrregular.toString()).append('\n');
+        builder.append("lado 1: ").append(lado1).append('\n');
+        builder.append("lado 2: ").append(lado2).append('\n');
+        builder.append("lado 3: ").append(lado3).append('\n');
+        builder.append("Perímetro: ").append(calcularPerimetro()).append('\n');
+        builder.append("Área: ").append(calcularArea()).append('\n');
+        return builder.toString();
     }
+
+
+
+
+
+
+
+
 }
