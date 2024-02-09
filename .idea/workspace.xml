@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a44718f-44d2-477b-8515-5a4d50f20b4f" name="Changes" comment="Interfaces preJava8">
+    <list default="true" id="8a44718f-44d2-477b-8515-5a4d50f20b4f" name="Changes" comment="Interfaces preJava8 FIGURA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/triangulosIrregulares/TrianguloEscaleno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/triangulosIrregulares/TrianguloEscaleno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/triangulosIrregulares/TrianguloIrregular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/triangulosIrregulares/TrianguloIrregular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/triangulosIrregulares/TrianguloRectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/teoria/interfacesPreJava8/triangulosIrregulares/TrianguloRectangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MainAbs.executor": "Run",
-    "Application.teoria.interfacesPreJava8.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAbs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.teoria.interfacesPreJava8.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.teoria.interfacesPreJava8.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="teoria.instanceOf.Main" />
@@ -142,13 +146,22 @@
       <option name="project" value="LOCAL" />
       <updated>1707400072694</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Interfaces preJava8 FIGURA">
+      <option name="closed" value="true" />
+      <created>1707403384916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707403384916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit init, instaceOf" />
     <MESSAGE value="abstrcat" />
     <MESSAGE value="Interfaces preJava8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interfaces preJava8" />
+    <MESSAGE value="Interfaces preJava8 FIGURA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces preJava8 FIGURA" />
   </component>
 </project>

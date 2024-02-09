@@ -70,8 +70,8 @@ public class TrianguloIrregular implements Figura {
         builder.append("lado 1: ").append(lado1).append('\n');
         builder.append("lado 2: ").append(lado2).append('\n');
         builder.append("lado 3: ").append(lado3).append('\n');
-        builder.append("Perímetro: ").append(calcularPerimetro()).append('\n');
-        builder.append("Área: ").append(calcularArea()).append('\n');
+        builder.append("Perímetro: ").append(String.format("%.2f",calcularPerimetro())).append('\n');
+        builder.append("Área: ").append(String.format("%.2f",calcularArea())).append('\n');
         return builder.toString();
     }
 
