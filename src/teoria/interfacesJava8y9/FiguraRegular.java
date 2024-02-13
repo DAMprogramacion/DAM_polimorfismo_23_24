@@ -1,6 +1,7 @@
 package teoria.interfacesJava8y9;
 
-public abstract class FiguraRegular implements Figura {    private final String nombreFigura;
+public abstract class FiguraRegular implements Figura {
+    private final String nombreFigura;
     private int numeroLados;
     private double longitudLado;
 
@@ -43,7 +44,7 @@ public abstract class FiguraRegular implements Figura {    private final String 
         return numeroLados * longitudLado;
     }
 
-    @Override
-    public abstract double calcularArea();
+
+
 
 }

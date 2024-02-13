@@ -3,7 +3,7 @@ package teoria.interfacesJava8y9;
 public class Cuadrado extends FiguraRegular{
 
     public Cuadrado( double longitudLado) {
-        super("cuadrado", 4, longitudLado);
+        super("Cuadrado", 4, longitudLado);
     }
 
     @Override
