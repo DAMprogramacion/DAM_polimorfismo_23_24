@@ -1,6 +1,4 @@
-package ejercicios.ejercicios1;
-
-import java.util.Arrays;
+package ejercicios.ejercicio1;
 
 public interface Estadistica {
     int obtenerNumeroValores(); //número de elementos de una colección
