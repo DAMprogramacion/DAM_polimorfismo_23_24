@@ -17,8 +17,12 @@ public interface Figura {
     }
     static Optional<FiguraRegular> getFiguraRegular(double longitudLado, String tipoFigura) {
         switch (tipoFigura) {
-            case "Cuadrado" ->  Optional.of(new Cuadrado(longitudLado));
-            case "TrianguloEquilatero" -> Optional.of(new TrianguloEquilatero(longitudLado));
+            case "Cuadrado" -> {
+                return Optional.of(new Cuadrado(longitudLado));
+            }
+            case "TrianguloEquilatero" -> {
+                return Optional.of(new TrianguloEquilatero(longitudLado));
+            }
         }
         return Optional.empty();
     }
